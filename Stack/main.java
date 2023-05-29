@@ -1,14 +1,22 @@
 package Stack;
 
+import java.util.Stack;
+
 public class main {
     public static void main(String[] args) {
-        stack nums = new stack();
+        Stack<String> nums = new Stack<String>();
 
-        nums.push(40);
-        nums.push(30);
-        nums.push(20);
-        nums.push(10);
+        nums.push("I'm fine");
+        nums.push("how are you");
+        nums.push("there");
+        nums.push("hi");
 
-        nums.show();
+        System.out.println("peinting all " + nums);
+
+        System.out.println("removing " + nums.pop());
+        System.out.println("removing " + nums.pop());
+
+        System.out.println("looking all" + nums.peek());
+
     }
 }
