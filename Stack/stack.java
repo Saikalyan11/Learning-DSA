@@ -17,4 +17,10 @@ public class stack {
         return "stack [stack=" + Arrays.toString(stack) + "]";
     }
 
+    public int show() {
+        for (int n : stack) {
+            System.out.println(n + " ");
+        }
+        return top;
+    }
 }

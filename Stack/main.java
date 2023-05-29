@@ -9,6 +9,6 @@ public class main {
         nums.push(20);
         nums.push(10);
 
-        System.out.println(nums);
+        nums.show();
     }
 }
