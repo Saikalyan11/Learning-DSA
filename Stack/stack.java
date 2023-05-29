@@ -12,6 +12,20 @@ public class stack {
         top++;
     }
 
+    public int pop() {
+        int data;
+        top--;
+        data = stack[top];
+        stack[top] = 0;
+        return data;
+    }
+
+    public int peek() {
+        int data;
+        data = stack[top - 1];
+        return data;
+    }
+
     @Override
     public String toString() {
         return "stack [stack=" + Arrays.toString(stack) + "]";

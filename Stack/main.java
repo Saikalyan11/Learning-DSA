@@ -8,6 +8,9 @@ public class main {
         nums.push(30);
         nums.push(20);
         nums.push(10);
+        nums.push(70);
+
+        System.out.println(nums.peek());
 
         nums.show();
     }
